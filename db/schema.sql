@@ -10,3 +10,7 @@ CREATE TABLE burgers
   timestamp TIME,
   PRIMARY KEY(id)
 );
+
+USE burgers_db;
+UPDATE burgers
+SET devoured BOOLEAN DEFAULT false;
